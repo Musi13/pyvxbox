@@ -14,11 +14,11 @@ around the vjoy library).
 This library revolves around an XInputDevice object.
 Example:
 
-controller = pyvxbox.XInputDevice(1)
-controller.PlugIn()
-controller.SetBtn('A', True)
-controller.SetBtn('A', False)
-controller.UnPlug()
+controller = pyvxbox.XInputDevice(1)  
+controller.PlugIn()  
+controller.SetBtn('A', True)  
+controller.SetBtn('A', False)  
+controller.UnPlug()  
 
 The above example creates a virtual controller for
 port 1, plugs it in, presses and releases the A button,
